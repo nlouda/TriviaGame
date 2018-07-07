@@ -1,0 +1,57 @@
+
+
+
+
+button *{
+    display: block;
+    margin: 10px auto;
+    background-color: #416788;
+    color: white;
+    font-size: 20px !important;
+    border-radius: 4px;
+    vertical-align: middle;
+  
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    border: 3px black solid;
+    box-shadow: 0 0 1rem lightgrey;
+    background-color: gray;
+    color: black;
+  }
+  
+  
+  #content {
+    font-family: 'IM Fell Double Pica SC', serif; 
+    background-image: url("/TriviaGame/assets/images/hogwartscastle.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+    border: 5px lightslategray solid;
+    border-radius: 25px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 3px 3px 20px 6px #ccc !important;
+    padding-bottom: 20px;
+  }
+  
+  #content::after {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .4;
+  }
+  
+  #question-area {
+    padding-left: 10px;
+    padding-right: 10px
+  }
+  
+  .message-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
