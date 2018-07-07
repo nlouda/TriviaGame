@@ -1,16 +1,20 @@
-
-
-
-
+body{
+  background-image: url("../images/hogwartscastle.jpg");
+}
+#content h1{
+  padding-top: 10%;
+  font-size: 3.5rem;
+}
+img{
+  width:10%;
+}
 button *{
     display: block;
     margin: 10px auto;
-    background-color: #416788;
+    background-color: lightgray;
     color: white;
     font-size: 20px !important;
     border-radius: 4px;
-    vertical-align: middle;
-  
   }
   
   button:hover {
@@ -24,9 +28,7 @@ button *{
   
   #content {
     font-family: 'IM Fell Double Pica SC', serif; 
-    background-image: url("/TriviaGame/assets/images/hogwartscastle.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color:rgba(128, 128, 128, 0.6);
     position: relative;
     height: 600px;
     border: 5px lightslategray solid;
@@ -36,21 +38,18 @@ button *{
     box-shadow: 3px 3px 20px 6px #ccc !important;
     padding-bottom: 20px;
   }
-  
-  #content::after {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    opacity: .4;
-  }
-  
+
   #question-area {
     padding-left: 10px;
     padding-right: 10px
   }
+
+.col-md-8 {
   
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: auto;
+}
   .message-content {
     padding-left: 10px;
     padding-right: 10px;
